@@ -1,0 +1,13 @@
+import random
+choice=''
+print ("print welcome to 6 sided dice sim")
+for count in range(100000**900000):
+    loaded_die=( 1, 2, 3, 4, 5, 6)
+    roll= random.choice(loaded_die)
+    choice = input('do you want to rool the dice [Y/N]:')
+    if choice == 'N':
+        print("thank you for yousing 6 sided dice sim have a nice day :)")
+        break
+        choice = ' '
+    if choice == 'Y':
+        print(roll) 
