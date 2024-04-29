@@ -1,2 +1,2 @@
 # 6-digit-dice-reall-version-
-it is a vreal dice
+it is a vrtral dice
